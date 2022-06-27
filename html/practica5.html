@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>practica5</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Practica 5 - formularios</h1>
+</header>
+<nav>
+	<ul id="menu_lista">
+	<li><a href="practica1.html">Practica 1</a></li>
+	<li><a href="practica2.html">Practica 2</a></li>
+	<li><a href="practica3.html">Practica 3</a></li>
+	<li><a href="practica4.html">Practica 4</a></li>
+	<li><a href="practica5.html">Practica 5</a></li>
+	<li><a href="practica6.html">Practica 6</a></li>
+</ul>
+</nav>
+<main>
+  <section>
+    <h2>This is the content for Layout H2 Tag</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem necessitatibus quidem mollitia ipsam earum omnis magni, repellat cum officiis dolorum saepe quo nisi totam. Quos esse velit ut dolor, sequi laboriosam at quas accusantium sapiente in cupiditate corporis aperiam fugiat culpa magni omnis non voluptatem eveniet itaque blanditiis dolorum. Magni!</p>
+	  
+    <form action="procesamiento.html" method="get" name="form1" id="form1">
+      
+      <label for="textfield">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      
+      <label for="textfield2">Apellidos:</label>
+      <input type="text" name="aapellidos" id="textfield2">
+      <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</section>
+  <section>
+    <h2>This is the content for Layout H2 Tag</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem necessitatibus quidem mollitia ipsam earum omnis magni, repellat cum officiis dolorum saepe quo nisi totam. Quos esse velit ut dolor, sequi laboriosam at quas accusantium sapiente in cupiditate corporis aperiam fugiat culpa magni omnis non voluptatem eveniet itaque blanditiis dolorum. Magni!</p>
+    
+	  <form action="procesamiento.html" method="get" name="form2" id="form2">
+<label for="nombre_completo">Nombre:</label>
+	    <input name="nombre_completo" type="text" id="nombre_completo" maxlength="30">
+<label for="selet">Pais:</label>
+      <select name="pais" id="pais">
+        <option value="mx">Mexico</option>
+        <option value="es">España</option>
+        <option value="it">Italia</option>
+        <option value="us">Estados unidos</option>
+        <option value="ar">Argentina</option>
+      </select>
+<table width="200">
+	<label>Genero:</label>
+		<tr>
+          <td><label>
+            <input type="radio" name="genero" value="femenino" id="genero_0">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="genero" value="radio" id="genero_1">
+            Masculino</label></td>
+        </tr>
+</table>
+<table width="200">
+        <label>¿Que musica te  gusta?</label>
+        <tr>
+          <td><label>
+            <input type="checkbox" name=" Musica" value="rock" id="Musica_0">
+            Rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name=" Musica" value="pop" id="Musica_1">
+            Pop</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name=" Musica" value="jazz" id="Musica_2">
+            Jazz</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name=" Musica" value="alternativa" id="Musica_3">
+            Alternativa</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name=" Musica" value="clasica" id="Musica_4">
+            Clasica</label></td>
+        </tr>
+      </table>
+      <input type="submit" name="submit2" id="submit2" value="Submit">
+		
+    </form>
+</section>
+  <section>
+    <h2>This is the content for Layout H2 Tag</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem necessitatibus quidem mollitia ipsam earum omnis magni, repellat cum officiis dolorum saepe quo nisi totam. Quos esse velit ut dolor, sequi laboriosam at quas accusantium sapiente in cupiditate corporis aperiam fugiat culpa magni omnis non voluptatem eveniet itaque blanditiis dolorum. Magni!</p>
+  
+    <form action="procesamiento.html" method="get" name="form1" id="form3">
+      <label for="textfield7">Nombre:</label>
+      <input type="text" name="nombre2" id="nombre2">
+      <label for="textfield8">Opinion del curso:</label>
+		<textarea name="textarea">
+      	</textarea>
+	<input type="submit" name="submit3" id="submit3" value="Submit">
+    </form>
+</section>
+  <section>
+    <h2>This is the content for Layout H2 Tag</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem necessitatibus quidem mollitia ipsam earum omnis magni, repellat cum officiis dolorum saepe quo nisi totam. Quos esse velit ut dolor, sequi laboriosam at quas accusantium sapiente in cupiditate corporis aperiam fugiat culpa magni omnis non voluptatem eveniet itaque blanditiis dolorum. Magni!</p>
+	
+		<div class="container">
+	  <form action="procesamiento.html">
+	  <div class="row">
+		<div class="col-25">
+		  <label for="fname">First Name</label>
+		</div>
+		<div class="col-75">
+		  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+		  <label for="lname">Last Name</label>
+		</div>
+		<div class="col-75">
+		  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+		  <label for="country">Country</label>
+		</div>
+		<div class="col-75">
+		  <select id="country" name="country">
+			<option value="australia">Australia</option>
+			<option value="canada">Canada</option>
+			<option value="usa">USA</option>
+		  </select>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-25">
+		  <label for="subject">Subject</label>
+		</div>
+		<div class="col-75">
+		  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+		</div>
+	  </div>
+	  <br>
+	  <div class="row">
+		<input type="submit" value="Submit">
+	  </div>
+	  </form>
+	</div>
+	</section>
+</main>
+<footer>
+  <h5>Elaborado por Guillermo Trejo Romero</h5>
+</footer>
+</body>
+</html>
